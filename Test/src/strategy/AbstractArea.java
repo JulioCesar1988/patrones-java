@@ -1,28 +1,15 @@
 package strategy;
 
-public abstract class AbstractArea implements IArea {
+public  class AbstractArea implements IArea {
 	
-	private String nombreFigura;
 
-	public AbstractArea(String nombreFigura) {
-		this.nombreFigura = nombreFigura;
-	}
-
-	public String getNombreFigura() {
-		return nombreFigura;
-	}
-
-	public void setNombreFigura(String nombreFigura) {
-		this.nombreFigura = nombreFigura;
+	public float calcularArea(float radio) {
+		return 123;
 	}
 	
 	public String metodoIntefaz() {
 		return "algo";
-		
-	}
-	
-	@Override
-	public abstract float calcularArea();
+	}	
 	
 
 }

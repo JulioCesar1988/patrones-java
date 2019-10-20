@@ -2,7 +2,7 @@ package strategy;
 
 public interface IArea {
 	
-	public float calcularArea();
+	public float calcularArea(float radio);
 	public String metodoIntefaz();
 
 }
