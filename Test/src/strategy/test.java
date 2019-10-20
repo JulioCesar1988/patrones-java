@@ -10,7 +10,7 @@ public class test {
 		// TODO Auto-generated method stub
 
 		Level l = Level.low;
-		System.out.print(l);
+		System.out.print(l+"agregando camio");
 
 	}
 
