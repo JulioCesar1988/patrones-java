@@ -6,11 +6,12 @@ public class test {
 		empresaA, empresaB, empresaC , empresaZ
 	}
 	public static String getMontosEmpresa(Empresa e) {
+		// mas cambios jejeje
 		String montos = null;
 		switch (e) {
 		case empresaA:
 			System.out.println(" Montos para la empresa A");
-			montos = "{ 10 , 20 , 30 , 40 ,50 , 60 }";
+			montos = "{ 800 , 20 , 30 , 40 ,50 , 60 }";
 			break;
 		case empresaB:
 			System.out.println(" Montos para la empresa B");
@@ -30,6 +31,7 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int i = 0 ;
 		Empresa empA = Empresa.empresaA;
 		Empresa empB = Empresa.empresaB;
 		Empresa empC = Empresa.empresaC;
@@ -39,9 +41,11 @@ public class test {
 		System.out.println(" Show Montos -> " + t.getMontosEmpresa(empB));
 		System.out.println(" Show Montos -> " + t.getMontosEmpresa(empC));
 		System.out.println(" Show Montos -> " + t.getMontosEmpresa(empZ));
-		
-		
+				
 		// agregando algo mas para ver si lo toma git 
+		for (int i = 0; i < 10; i++) {
+			System.out.println("cambios !!! ");
+		}
 
 	}
 
